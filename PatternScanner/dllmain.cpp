@@ -1,4 +1,4 @@
-﻿// dllmain.cpp : 定义 DLL 应用程序的入口点。
+﻿// dllmain.cpp : The entry point of your DLL 
 #include "pch.h"
 #include "main.hpp"
 
@@ -11,7 +11,7 @@ BOOL APIENTRY DllMain( HMODULE hModule,
     {
     case DLL_PROCESS_ATTACH:
     case DLL_THREAD_ATTACH:
-        // Really confused on its non-working on my device
+        // Really confused because it's not working on my device
         // if (hModule)
         //     DisableThreadLibraryCalls(hModule);
 
